@@ -27,7 +27,7 @@ h1 {
 }
 
 h3 {
-	font: 900 1.1em 'Raleway', sans-serif;
+	font: 900 1.4em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
@@ -47,7 +47,7 @@ a,.white{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -86,4 +86,7 @@ footer {
 }
 .fab,.fa-linkedin{
     font-size: 22px;
+}
+h2 {
+    font-size: 29px;
 }
