@@ -1,16 +1,16 @@
 body {
 	font: 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.6);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+	background: linear-gradient(to right, rgb(81, 126, 230), rgb(232, 172, 69)); 
 }
-
+/*background: linear-gradient(to right, red , yellow);*/ /* Standard syntax */
 h1 {
     font: 600 3.5em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.6);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
@@ -18,7 +18,7 @@ h1 {
 }
 .design {
     font: 600 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.6);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
@@ -28,7 +28,7 @@ h1 {
 
 h3 {
 	font: 900 1.4em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.57);
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
@@ -40,7 +40,7 @@ a,.white{
 }
 /*Button Style*/
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: rgb(81, 126, 230); /* Green */
   border: none;
   color: white;
   padding: 12px 12px;
@@ -53,9 +53,6 @@ a,.white{
   cursor: pointer;
   border-radius: 18px;
 }
-
-
-
 .button5 {
   background-color: white; 
   color: black; 
@@ -63,7 +60,7 @@ a,.white{
 }
 
 .button5:hover {
-  background-color: #008CBA;
+  background-color: rgb(81, 126, 230, 2);
   color: white;
 }
 
