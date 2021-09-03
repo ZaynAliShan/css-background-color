@@ -8,7 +8,7 @@ function setGradient(){
 	colorDetails.textContent = body.style.background + ";";
 }
 
-colorDetails.textContent = "linear-gradient(to right, " + "rgb(255,0,0)" + ", " + "rgb(255,255,0)" + ")";
+colorDetails.textContent = "linear-gradient(to right, " + "rgb(81, 126, 230)" + ", " + "rgb(232, 172, 69)" + ")";
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
